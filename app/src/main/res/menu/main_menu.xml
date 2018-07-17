@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Sort By" android:id="@+id/sort">
+        <menu>
+            <item android:title="Name" android:id="@+id/name"></item>
+            <item android:title="Date" android:id="@+id/date" ></item>
+
+            <item android:title="Time" android:id="@+id/time"></item>
+        </menu>
+    </item>
+    <item android:id="@+id/add" android:title="Add"
+        android:icon="@drawable/a" app:showAsAction="always"/>
+
+</menu>
